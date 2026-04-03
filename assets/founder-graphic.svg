@@ -1,0 +1,20 @@
+<svg width="960" height="1120" viewBox="0 0 960 1120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="130" y1="112" x2="840" y2="1018" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#181716"/>
+      <stop offset="1" stop-color="#38302A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="264" y1="260" x2="706" y2="772" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D2A66C"/>
+      <stop offset="1" stop-color="#8C3B3B"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="1120" rx="44" fill="url(#bg)"/>
+  <circle cx="600" cy="394" r="154" fill="#F5F1E8" fill-opacity="0.1"/>
+  <path d="M414 794C456 728 506 686 592 670C690 652 748 588 748 492C748 396 676 320 584 320C507 320 446 369 426 437C354 452 292 516 292 596C292 698 378 780 486 780H574C658 780 716 830 716 898" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="584" cy="436" r="18" fill="#D2A66C"/>
+  <circle cx="394" cy="782" r="18" fill="#D2A66C"/>
+  <text x="108" y="914" fill="#F5F1E8" style="font: 600 82px 'Georgia', serif; letter-spacing:-1px;">Divya</text>
+  <text x="108" y="988" fill="#F5F1E8" style="font: 600 82px 'Georgia', serif; letter-spacing:-1px;">Prakash</text>
+  <text x="112" y="1040" fill="#D8CBBB" style="font: 600 28px Inter, Arial, sans-serif; letter-spacing:5px; text-transform:uppercase;">STORYTELLER · STRATEGIST · TECHNOLOGY PARTNER</text>
+</svg>

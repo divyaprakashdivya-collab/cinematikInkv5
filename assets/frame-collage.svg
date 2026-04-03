@@ -1,0 +1,19 @@
+<svg width="1200" height="860" viewBox="0 0 1200 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="860" rx="42" fill="#F6F0E5"/>
+  <rect x="74" y="72" width="318" height="560" rx="28" fill="#FFFDF8" stroke="#131313" stroke-opacity="0.08"/>
+  <rect x="440" y="72" width="318" height="560" rx="28" fill="#FFFDF8" stroke="#131313" stroke-opacity="0.08"/>
+  <rect x="806" y="72" width="318" height="560" rx="28" fill="#FFFDF8" stroke="#131313" stroke-opacity="0.08"/>
+  <rect x="98" y="96" width="270" height="348" rx="22" fill="#1B1A18"/>
+  <rect x="464" y="96" width="270" height="348" rx="22" fill="#6D5641"/>
+  <rect x="830" y="96" width="270" height="348" rx="22" fill="#8C3B3B"/>
+  <text x="108" y="500" fill="#131313" style="font: 600 42px 'Georgia', serif;">Story</text>
+  <text x="108" y="546" fill="#5D564D" style="font: 500 24px Inter, Arial, sans-serif;">Hook the attention.</text>
+  <text x="474" y="500" fill="#131313" style="font: 600 42px 'Georgia', serif;">Structure</text>
+  <text x="474" y="546" fill="#5D564D" style="font: 500 24px Inter, Arial, sans-serif;">Shape the narrative.</text>
+  <text x="840" y="500" fill="#131313" style="font: 600 42px 'Georgia', serif;">Screen</text>
+  <text x="840" y="546" fill="#5D564D" style="font: 500 24px Inter, Arial, sans-serif;">Deliver the impact.</text>
+  <path d="M170 702H1030" stroke="#131313" stroke-opacity="0.14" stroke-width="2" stroke-dasharray="2 16"/>
+  <circle cx="170" cy="702" r="10" fill="#D2A66C"/>
+  <circle cx="600" cy="702" r="10" fill="#D2A66C"/>
+  <circle cx="1030" cy="702" r="10" fill="#8C3B3B"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg width="1400" height="220" viewBox="0 0 1400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line" x1="52" y1="110" x2="1348" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D2A66C"/>
+      <stop offset="1" stop-color="#8C3B3B"/>
+    </linearGradient>
+  </defs>
+  <path d="M52 110H1348" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 18"/>
+  <circle cx="140" cy="110" r="22" fill="#131313"/><circle cx="140" cy="110" r="10" fill="#D2A66C"/>
+  <circle cx="490" cy="110" r="22" fill="#131313"/><circle cx="490" cy="110" r="10" fill="#D2A66C"/>
+  <circle cx="910" cy="110" r="22" fill="#131313"/><circle cx="910" cy="110" r="10" fill="#D2A66C"/>
+  <circle cx="1260" cy="110" r="22" fill="#131313"/><circle cx="1260" cy="110" r="10" fill="#8C3B3B"/>
+  <text x="84" y="50" fill="#131313" style="font: 700 26px Inter, Arial, sans-serif;">Insight</text>
+  <text x="415" y="50" fill="#131313" style="font: 700 26px Inter, Arial, sans-serif;">Story Design</text>
+  <text x="835" y="50" fill="#131313" style="font: 700 26px Inter, Arial, sans-serif;">AI Craft Layer</text>
+  <text x="1180" y="50" fill="#131313" style="font: 700 26px Inter, Arial, sans-serif;">Screen Impact</text>
+</svg>

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title>CinematikInk | AI-Powered Cinematic Storytelling Studio</title>
+  <meta name="description" content="CinematikInk is an AI-powered cinematic storytelling studio by Divya Prakash. We shape ideas into reels, scripts, websites, decks and story-led communication with a premium editorial edge." />
+  <meta name="keywords" content="CinematikInk, Divya Prakash, AI storytelling studio, cinematic storytelling, AI creative studio, script development, reels, websites, pitch decks, brand storytelling" />
+  <meta property="og:title" content="CinematikInk | AI-Powered Cinematic Storytelling Studio" />
+  <meta property="og:description" content="We turn ideas into cinematic communication using story architecture, strategic clarity and AI-assisted craft." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-domain.example/" />
+  <meta property="og:image" content="https://your-domain.example/assets/hero-graphic.svg" />
+  <meta property="og:site_name" content="CinematikInk" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CinematikInk | AI-Powered Cinematic Storytelling Studio" />
+  <meta name="twitter:description" content="Story-first. AI-powered. Cinematic by design." />
+  <meta name="twitter:image" content="https://your-domain.example/assets/hero-graphic.svg" />
+  <link rel="canonical" href="https://your-domain.example/" />
+  <meta name="theme-color" content="#121110" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CinematikInk",
+    "url": "https://your-domain.example/",
+    "logo": "https://your-domain.example/assets/favicon.svg",
+    "description": "AI-powered cinematic storytelling studio by Divya Prakash.",
+    "founder": {
+      "@type": "Person",
+      "name": "Divya Prakash",
+      "jobTitle": "Founder, AI Creative Strategist"
+    },
+    "email": "cinematikink@gmail.com"
+  }
+  </script>
+  <style>
+    :root{
+      --bg:#f5f1e8;
+      --bg-soft:#fcf8f1;
+      --paper:#fffdf8;
+      --ink:#121110;
+      --muted:#5d564d;
+      --line:rgba(18,17,16,.11);
+      --gold:#d2a66c;
+      --wine:#8c3b3b;
+      --dark:#161513;
+      --shadow:0 24px 60px rgba(17,16,15,.10);
+      --max:1240px;
+      --radius:30px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,sans-serif;
+      color:var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(210,166,108,.18), transparent 28%),
+        radial-gradient(circle at top right, rgba(140,59,59,.08), transparent 20%),
+        linear-gradient(180deg, #f8f4eb 0%, #f4eee2 44%, #efe6da 100%);
+      overflow-x:hidden;
+    }
+    body::before{
+      content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;
+      background-image:
+        linear-gradient(rgba(18,17,16,.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(18,17,16,.03) 1px, transparent 1px);
+      background-size:28px 28px;
+      mask-image:linear-gradient(180deg, rgba(255,255,255,.65), transparent 88%);
+    }
+    img,video{max-width:100%;display:block}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(calc(100% - 40px),var(--max));margin:0 auto}
+    .site-header{position:sticky;top:0;z-index:30;background:rgba(245,241,232,.78);backdrop-filter:blur(18px);border-bottom:1px solid rgba(18,17,16,.06)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+    .brand{display:flex;align-items:center;gap:14px}
+    .brand-mark{width:48px;height:48px;border-radius:16px;background:#111;display:grid;place-items:center;box-shadow:0 14px 28px rgba(17,17,16,.18);position:relative;overflow:hidden}
+    .brand-mark::before{content:"";position:absolute;inset:auto -25% -40% auto;width:70%;height:70%;background:radial-gradient(circle, rgba(210,166,108,.85), transparent 66%);animation:pulse 4s ease-in-out infinite}
+    .brand-mark span{font-family:"Cormorant Garamond",serif;font-size:1.55rem;color:#f6f0e5;position:relative}
+    .brand-text strong{display:block;font-size:1rem}
+    .brand-text span{display:block;font-size:.72rem;color:var(--muted);letter-spacing:.16em;text-transform:uppercase;margin-top:2px}
+    .nav-links{display:flex;gap:24px;color:var(--muted);font-size:.95rem}
+    .nav-links a{position:relative}
+    .nav-links a::after{content:"";position:absolute;left:0;bottom:-5px;width:0;height:1.5px;background:var(--ink);transition:.28s}
+    .nav-links a:hover::after{width:100%}
+    .nav-cta{padding:12px 18px;border-radius:999px;background:var(--dark);color:#f5f1e8;font-weight:700;box-shadow:0 16px 28px rgba(18,17,16,.18)}
+
+    .eyebrow{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.58);font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+    .eyebrow .dot{width:8px;height:8px;border-radius:50%;background:var(--wine);box-shadow:0 0 0 6px rgba(140,59,59,.10)}
+    h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;letter-spacing:-.02em;margin:0}
+    h1{font-size:clamp(3.3rem,7vw,6.4rem);line-height:.92;max-width:10ch;margin-top:18px}
+    h2{font-size:clamp(2.6rem,4.6vw,4.2rem);line-height:.98}
+    h3{font-size:2rem;line-height:1.02}
+    p{margin:0}
+
+    .hero{padding:72px 0 34px}
+    .hero-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:36px;align-items:center}
+    .hero-copy p{font-size:1.14rem;line-height:1.9;color:var(--muted);max-width:60ch;margin-top:22px}
+    .hero-copy strong{color:var(--ink)}
+    .cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:16px 24px;border-radius:999px;font-weight:700;transition:.28s ease;position:relative;overflow:hidden}
+    .btn::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.28),transparent);transform:translateX(-130%);transition:.8s ease}
+    .btn:hover::before{transform:translateX(130%)}
+    .btn-primary{background:var(--dark);color:#f6f0e5;box-shadow:0 18px 34px rgba(18,17,16,.18)}
+    .btn-primary:hover{transform:translateY(-2px)}
+    .btn-secondary{border:1px solid var(--line);background:rgba(255,255,255,.68);color:var(--ink)}
+    .hero-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:26px}
+    .fact{padding:16px 18px;border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.6);box-shadow:var(--shadow)}
+    .fact strong{display:block;font-size:1rem;color:var(--ink);margin-bottom:4px}
+    .fact span{color:var(--muted);font-size:.95rem;line-height:1.6}
+
+    .hero-visual{background:linear-gradient(180deg, rgba(255,255,255,.62), rgba(255,255,255,.82));border:1px solid rgba(18,17,16,.08);box-shadow:var(--shadow);border-radius:36px;padding:22px;position:relative;overflow:hidden}
+    .hero-visual::after{content:"";position:absolute;inset:auto -10% -18% auto;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle, rgba(210,166,108,.22), transparent 62%)}
+    .panel-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px}
+    .panel-title{font-size:.82rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+    .chips{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{padding:8px 12px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:.8rem;color:var(--muted)}
+    .mockup{border-radius:28px;overflow:hidden;border:1px solid rgba(18,17,16,.08);background:#ebe2d5}
+    .mockup-grid{display:grid;grid-template-columns:1fr .84fr}
+    .mockup-art{min-height:520px;background:#efe6da}
+    .mockup-art img{width:100%;height:100%;object-fit:cover}
+    .motion-panel{position:relative;background:#111;color:#f7f2e8;padding:14px;display:flex;flex-direction:column;gap:14px}
+    .motion-frame{border-radius:24px;overflow:hidden;flex:1;min-height:280px;background:#0d0d0d;border:1px solid rgba(255,255,255,.08)}
+    .motion-frame video{width:100%;height:100%;object-fit:cover}
+    .motion-note{font-size:.95rem;line-height:1.7;color:#dfd2c0}
+
+    .section{padding:92px 0}
+    .section-head{display:grid;grid-template-columns:1fr .88fr;gap:24px;align-items:end;margin-bottom:34px}
+    .section-head p{font-size:1.04rem;line-height:1.9;color:var(--muted);max-width:58ch}
+
+    .contrast-grid{display:grid;grid-template-columns:.94fr 1.06fr;gap:28px;align-items:center}
+    .contrast-card,.story-card,.founder-copy,.workflow-card,.offer-card{background:rgba(255,255,255,.68);border:1px solid var(--line);box-shadow:var(--shadow)}
+    .contrast-card{padding:34px;border-radius:32px}
+    .contrast-card .statement{font-size:2.25rem;line-height:1.12;margin-bottom:18px}
+    .contrast-card p{font-size:1.04rem;line-height:1.9;color:var(--muted)}
+    .graphic-shell{border-radius:34px;overflow:hidden;box-shadow:var(--shadow)}
+
+    .workflow-shell{padding-top:10px}
+    .workflow-line{border-radius:28px;overflow:hidden;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);padding:16px}
+    .workflow-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:18px}
+    .workflow-card{padding:24px;border-radius:28px;position:relative;overflow:hidden;min-height:220px}
+    .workflow-card::after{content:"";position:absolute;inset:auto -20% -18% auto;width:160px;height:160px;border-radius:50%;background:radial-gradient(circle, rgba(210,166,108,.14), transparent 62%)}
+    .workflow-no{font-size:.82rem;letter-spacing:.18em;text-transform:uppercase;color:var(--wine);font-weight:700}
+    .workflow-card p{margin-top:12px;font-size:.98rem;line-height:1.78;color:var(--muted)}
+
+    .offer-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .offer-card{padding:24px;border-radius:28px;display:flex;flex-direction:column;justify-content:space-between;min-height:284px;transition:transform .28s ease}
+    .offer-card:hover{transform:translateY(-6px)}
+    .offer-icon{width:64px;height:64px;border-radius:18px;background:#111;color:#f5f1e8;display:grid;place-items:center;font-size:1.18rem;font-weight:800;box-shadow:0 12px 22px rgba(17,17,16,.16)}
+    .offer-card p{margin-top:12px;font-size:.98rem;line-height:1.78;color:var(--muted)}
+    .offer-tag{margin-top:18px;display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:.8rem;color:var(--muted);width:max-content}
+
+    .statement-band{background:var(--dark);color:#f6f1e8;position:relative;overflow:hidden}
+    .statement-band::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 18% 28%, rgba(210,166,108,.16), transparent 22%),radial-gradient(circle at 78% 62%, rgba(140,59,59,.18), transparent 20%)}
+    .statement-band .container{position:relative}
+    .statement-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:32px;align-items:center}
+    .statement-copy p{font-size:1.05rem;line-height:1.92;color:#d7c9b8;margin-top:16px}
+    .bullet-list{display:grid;gap:14px;margin-top:26px}
+    .bullet{display:flex;gap:14px;padding:14px 16px;border-radius:20px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08)}
+    .bullet .tick{width:26px;height:26px;border-radius:50%;background:rgba(210,166,108,.18);display:grid;place-items:center;color:#f5f1e8;font-size:.9rem;margin-top:2px}
+    .bullet strong{display:block;margin-bottom:4px}
+    .statement-visual{border-radius:34px;overflow:hidden;border:1px solid rgba(255,255,255,.08);box-shadow:0 24px 50px rgba(0,0,0,.24)}
+
+    .founder-grid{display:grid;grid-template-columns:.88fr 1.12fr;gap:30px;align-items:center}
+    .founder-visual{border-radius:36px;overflow:hidden;box-shadow:var(--shadow)}
+    .founder-copy{padding:34px;border-radius:34px}
+    .founder-copy p{font-size:1.05rem;line-height:1.95;color:var(--muted);margin-top:16px}
+    .founder-meta{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+    .pill{padding:10px 14px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:.88rem;color:var(--muted)}
+
+    .cta-panel{background:linear-gradient(145deg,#111,#26211c);border-radius:38px;color:#f5f1e8;padding:42px;box-shadow:0 30px 70px rgba(18,17,16,.2);position:relative;overflow:hidden}
+    .cta-panel::before{content:"";position:absolute;inset:-20% auto auto -12%;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle, rgba(210,166,108,.24), transparent 66%)}
+    .cta-panel::after{content:"";position:absolute;inset:auto -10% -25% auto;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle, rgba(140,59,59,.24), transparent 66%)}
+    .cta-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:28px;align-items:end;position:relative}
+    .cta-grid p{font-size:1.04rem;line-height:1.9;color:#d6c8b8;margin-top:14px}
+    .cta-actions{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+
+    .footer{padding:28px 0 56px;color:var(--muted);font-size:.94rem}
+    .footer-row{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap}
+
+    .reveal{opacity:0;transform:translateY(28px);transition:opacity .75s ease, transform .75s ease}
+    .reveal.visible{opacity:1;transform:none}
+    .delay-1{transition-delay:.08s}.delay-2{transition-delay:.16s}.delay-3{transition-delay:.24s}
+
+    @keyframes pulse{0%,100%{transform:scale(.92);opacity:.42}50%{transform:scale(1.16);opacity:.95}}
+
+    @media (max-width:1080px){
+      .hero-grid,.section-head,.contrast-grid,.statement-grid,.founder-grid,.cta-grid{grid-template-columns:1fr}
+      .workflow-grid,.offer-grid{grid-template-columns:repeat(2,1fr)}
+    }
+    @media (max-width:760px){
+      .nav-links{display:none}
+      .hero{padding-top:42px}
+      h1{font-size:3rem}
+      .hero-facts,.workflow-grid,.offer-grid,.mockup-grid{grid-template-columns:1fr}
+      .cta-panel{padding:30px}
+      .hero-visual{padding:16px}
+      .motion-frame{min-height:220px}
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="CinematikInk home">
+        <div class="brand-mark"><span>CI</span></div>
+        <div class="brand-text">
+          <strong>CinematikInk</strong>
+          <span>AI-powered cinematic storytelling</span>
+        </div>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#services">Services</a>
+        <a href="#founder">Founder</a>
+      </nav>
+      <a class="nav-cta" href="mailto:cinematikink@gmail.com?subject=CinematikInk%20Project%20Enquiry">Book a Story Call</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal visible">
+          <div class="eyebrow"><span class="dot"></span> Story-first. AI-powered. Cinematic by design.</div>
+          <h1>Other content gets noticed. We build stories that stay.</h1>
+          <p><strong>CinematikInk</strong> is an AI-powered cinematic storytelling studio. We shape ideas into reels, scripts, websites, decks and brand narratives that feel sharper, richer and more memorable than standard content output.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="mailto:cinematikink@gmail.com?subject=Let%27s%20Build%20Something%20Cinematic">Start Your Story</a>
+            <a class="btn btn-secondary" href="#workflow">See the Workflow</a>
+          </div>
+          <div class="hero-facts">
+            <div class="fact"><strong>Clear positioning</strong><span>Visitors understand what you do fast and remember it longer.</span></div>
+            <div class="fact"><strong>Cinematic craft</strong><span>Every output is designed with rhythm, hierarchy and emotional movement.</span></div>
+            <div class="fact"><strong>AI with intent</strong><span>We use AI where it sharpens the work, never where it weakens the soul.</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1 visible">
+          <div class="panel-top">
+            <div class="panel-title">Creative direction board</div>
+            <div class="chips">
+              <span class="chip">Reels</span>
+              <span class="chip">Scripts</span>
+              <span class="chip">Web</span>
+              <span class="chip">Decks</span>
+            </div>
+          </div>
+          <div class="mockup">
+            <div class="mockup-grid">
+              <div class="mockup-art">
+                <img src="assets/hero-graphic.svg" alt="Editorial cinematic design board representing CinematikInk's story-first creative process" />
+              </div>
+              <div class="motion-panel">
+                <div class="motion-frame">
+                  <video autoplay muted loop playsinline poster="assets/website-motion-poster.jpg" aria-label="Motion reference showing cinematic website pacing and visual storytelling">
+                    <source src="assets/website-motion.webm" type="video/webm" />
+                  </video>
+                </div>
+                <div class="motion-note">We study movement, pacing and screen language before we design the final experience. Because a great website should feel directed, not merely assembled.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">What CinematikInk really is</div>
+            <h2>This is not an AI engine company. This is a cinematic storytelling studio.</h2>
+          </div>
+          <p>We use AI where it expands speed, range, iteration and visual possibility. But the core remains human: insight, emotion, story architecture and cinematic thinking. That is why our work feels intentional instead of generic.</p>
+        </div>
+        <div class="contrast-grid">
+          <div class="contrast-card reveal delay-1">
+            <div class="statement">We do not use AI to replace creativity. We use it to elevate storytelling.</div>
+            <p>That means stronger hooks, cleaner message flow, faster concept exploration and a more premium final experience across formats. Whether the outcome is a reel, a website, a campaign or a pitch deck, the job stays the same: make the idea land with force.</p>
+          </div>
+          <div class="graphic-shell reveal delay-2">
+            <img src="assets/frame-collage.svg" alt="Story panels showing how CinematikInk turns ideas into cinematic outcomes" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="workflow">
+      <div class="container workflow-shell">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">Workflow</div>
+            <h2>We build from story first, then shape the format around it.</h2>
+          </div>
+          <p>That is how one idea can become a cinematic reel, a sharp website, a compelling deck or a script with proper emotional movement. The output changes. The storytelling spine does not.</p>
+        </div>
+        <div class="workflow-line reveal delay-1">
+          <img src="assets/workflow-graphic.svg" alt="CinematikInk workflow timeline from insight to screen impact" />
+        </div>
+        <div class="workflow-grid">
+          <article class="workflow-card reveal delay-1">
+            <div class="workflow-no">Step 01</div>
+            <h3>Read the real need</h3>
+            <p>We identify the angle, audience movement, emotional trigger and message hierarchy before touching the final format.</p>
+          </article>
+          <article class="workflow-card reveal delay-2">
+            <div class="workflow-no">Step 02</div>
+            <h3>Design the story spine</h3>
+            <p>We structure the hook, flow, transitions, contrast points and CTA so the narrative naturally pulls attention forward.</p>
+          </article>
+          <article class="workflow-card reveal delay-3">
+            <div class="workflow-no">Step 03</div>
+            <h3>Apply AI with intention</h3>
+            <p>We bring AI into ideation, language sharpening, visual exploration and production support where it adds clear value.</p>
+          </article>
+          <article class="workflow-card reveal delay-3">
+            <div class="workflow-no">Step 04</div>
+            <h3>Craft screen impact</h3>
+            <p>We shape the final expression so the result feels cinematic, premium and memorable instead of simply modern-looking.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">What we create</div>
+            <h2>One cinematic language. Multiple creative and business outputs.</h2>
+          </div>
+          <p>We are not locked to one format. We build whatever the story needs while keeping the brand voice, visual rhythm and emotional architecture consistent.</p>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card reveal delay-1">
+            <div>
+              <div class="offer-icon">01</div>
+              <h3>AI cinematic reels</h3>
+              <p>Short-form content that feels directed, not randomly assembled. Useful for creators, founders and culture-led storytelling.</p>
+            </div>
+            <span class="offer-tag">High-retention storytelling</span>
+          </article>
+          <article class="offer-card reveal delay-2">
+            <div>
+              <div class="offer-icon">02</div>
+              <h3>Script & story development</h3>
+              <p>From concept notes to dialogue-ready structure, we shape stories that carry clarity, movement and recall.</p>
+            </div>
+            <span class="offer-tag">Narrative design</span>
+          </article>
+          <article class="offer-card reveal delay-3">
+            <div>
+              <div class="offer-icon">03</div>
+              <h3>Websites with story architecture</h3>
+              <p>Not just pages. Positioning, hierarchy, message flow and calls to action designed to feel premium and persuasive.</p>
+            </div>
+            <span class="offer-tag">Identity-first web presence</span>
+          </article>
+          <article class="offer-card reveal delay-3">
+            <div>
+              <div class="offer-icon">04</div>
+              <h3>Decks, campaigns & brand narrative</h3>
+              <p>When your idea needs to persuade, we design the journey from the opening line to the final impression.</p>
+            </div>
+            <span class="offer-tag">Presentation with force</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section statement-band">
+      <div class="container statement-grid">
+        <div class="statement-copy reveal delay-1">
+          <div class="eyebrow" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.12);color:#d7c7b5">Why it feels different</div>
+          <h2>AI is a tool. Storytelling is the power.</h2>
+          <p>That distinction changes everything. It is the difference between output that looks current and output that actually holds meaning, presence and recall.</p>
+          <div class="bullet-list">
+            <div class="bullet"><div class="tick">✓</div><div><strong>Sharper positioning</strong><span>Visitors understand what you do faster and remember it longer.</span></div></div>
+            <div class="bullet"><div class="tick">✓</div><div><strong>Cinematic communication</strong><span>Every section, screen and frame is designed to carry emotional movement.</span></div></div>
+            <div class="bullet"><div class="tick">✓</div><div><strong>Premium conversion feel</strong><span>The CTA works because the story before it was built properly.</span></div></div>
+          </div>
+        </div>
+        <div class="statement-visual reveal delay-2">
+          <img src="assets/logo-wordmark.svg" alt="CinematikInk logo identity representing story-first AI-powered cinematic branding" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="founder">
+      <div class="container founder-grid">
+        <div class="founder-visual reveal delay-1">
+          <img src="assets/founder-graphic.svg" alt="Editorial founder identity frame for Divya Prakash" />
+        </div>
+        <div class="founder-copy reveal delay-2">
+          <div class="eyebrow">Founder note</div>
+          <h2>I built CinematikInk for ideas that deserve more than ordinary content.</h2>
+          <p>My work sits at the intersection of technology, communication and cinematic thinking. I understand what AI can accelerate, but I care even more about what a story must make people feel.</p>
+          <p>That is why CinematikInk is not positioned as a software company. It is a creative studio with a story-first mind and an AI-powered craft layer. The goal is simple: make your idea feel more premium, more persuasive and more alive on screen.</p>
+          <div class="founder-meta">
+            <span class="pill">Divya Prakash</span>
+            <span class="pill">AI Creative Strategist</span>
+            <span class="pill">Storyteller</span>
+            <span class="pill">Technology Partner</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-panel reveal">
+          <div class="cta-grid">
+            <div>
+              <div class="eyebrow" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.12);color:#d8cab8">Call to action</div>
+              <h2>If your idea matters, it should not look ordinary.</h2>
+              <p>We can shape your story into a reel, a script, a website, a deck or a branded narrative system that feels cinematic from the first second.</p>
+            </div>
+            <div class="cta-actions">
+              <a class="btn btn-primary" style="background:#f5f1e8;color:#111" href="mailto:cinematikink@gmail.com?subject=Project%20Enquiry%20for%20CinematikInk">Let’s Build Something Cinematic</a>
+              <a class="btn btn-secondary" style="background:transparent;border-color:rgba(255,255,255,.18);color:#f5f1e8" href="mailto:cinematikink@gmail.com?subject=CinematikInk%20Consultation">cinematikink@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <div>© <span id="year"></span> CinematikInk. Story-first, AI-powered, cinematic by design.</div>
+      <div>Built for GitHub Pages · Replace placeholder domain before publishing.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.14 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
